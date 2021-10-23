@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul, ol, li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+article {
+  width: 500px;
+  margin: 25px auto; }
+  article path {
+    fill: transparent;
+    stroke: #000;
+    stroke-width: 1;
+    stroke-dasharray: 1270;
+    stroke-dashoffset: 1270;
+    transition: stroke-dashoffset 3s 1s ease-in, fill 2s 0s; }
+  article:hover path {
+    fill: rgba(0, 0, 0, 0.15);
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 1s 0s ease-in, fill 2s 1s; }
+
+/*# sourceMappingURL=style.css.map */
